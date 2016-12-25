@@ -12,4 +12,5 @@ an English translation, be free to submit an issue in the git repo.
 ## Entries
 
 [HelloWorld](/HelloWorld)
+
 [Cache Unfriendly Code and Judge Issues](/CacheUnfriendlyCodeAndJudgeIssues)
