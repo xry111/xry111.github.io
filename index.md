@@ -9,7 +9,6 @@ translated to English and pushed to XDOJ repos.
 Each entry has an English title. If you think it may be useful and want
 an English translation, be free to submit an issue in the git repo.
 
------
 ## Entries
 
 [HelloWorld](/HelloWorld)
