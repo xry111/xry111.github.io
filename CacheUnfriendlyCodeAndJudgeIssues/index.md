@@ -55,14 +55,14 @@
 为 1.2 亿条左右。可见，Glibc 很好地完成了工作，并没有在并行条件下消耗更多
 的指令。然而，连 `perf` 工具本身都注意到了令人不安的事情，并用红字给出：
 
-* 单次执行
+单次执行:
 
     2,278,365,223 stalled-cycles-frontend:u # 89.23% frontend cycles idle
 
 用通俗的话说，就是有大量时钟周期未能进行有用的工作，因为流水线发生了阻塞，
 CPU 只能空转。那么，并行执行的情况如何呢？
 
-* 并行执行
+并行执行:
 
     4,820,092,472 stalled-cycles-frontend:u # 95.46% frontend cycles idle
     4,824,219,004 stalled-cycles-frontend:u # 95.54% frontend cycles idle
@@ -77,7 +77,8 @@ CPU 只能空转。那么，并行执行的情况如何呢？
 跑两个进程就会导致这么多时钟周期空转呢？并不是这样的。我们用`perf stat -d`
 显示一下存储器访问事件，就会发现
 
-* 单次执行
+单次执行:
+
 	137,797,773 L1-dcache-load-misses:u # 126.06% of all L1-dcache hits
 
 也就是说，这程序执行的时候， L1 缓存几乎没有命中过。读一下代码也能直观地看
