@@ -3,7 +3,9 @@
 在 2016 年西电 ACM/ICPC 校赛的最后准备工作中，为了测试评测效率，本人写了
 一道题目（
 [XDOJ 1152](http://acm.xidian.edu.cn/problem.php?id=1152)
-）的效率极其低劣的[代码](xdoj1152_bad.cpp.html)。提交这一
+）的效率极其低劣的
+[代码](https://github.com/xry111/xry111.github.io/blob/master/CacheUnfriendlyCodeAndJudgeIssues/xdu1152_bad.cpp)
+。提交这一
 代码后，果然得到了预期的上千毫秒的运行时间。于是本人开心地徒手把这个代码交
 了几次，结果令人吃惊的事情发生了：这些提交全都超时了！把时间限制改大，再
 进行测试，发现了下列经验规律：
@@ -20,7 +22,9 @@
 
 后来大家就把这件事忘了，不料在 2016 年的暑期集训中，这个问题又出现了。这道
 题目是 [XDOJ 1179](http://acm.xidian.edu.cn/problem.php?id=1179)。本人求解
-这一问题的代码在[这里](xdoj1179.cpp.html)。注意这份代码并不像上次那样，是一份专
+这一问题的代码在
+[这里](https://github.com/xry111/xry111.github.io/blob/master/CacheUnfriendlyCodeAndJudgeIssues/xdu1179.cpp)。
+注意这份代码并不像上次那样，是一份专
 门编写的效率低劣的代码，而是正确的解法，其他选手解决这道题的代码也是大同小
 异的。结果在吃了两个答案错以后，本人发现数入数据有错，就呼叫命题人做了改正。
 之后裁判要进行重判，重判时自然是十几发针对这题的提交一起运行。于是，再一次
