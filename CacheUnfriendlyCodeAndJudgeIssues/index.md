@@ -8,9 +8,9 @@
 了几次，结果令人吃惊的事情发生了：这些提交全都超时了！把时间限制改大，再
 进行测试，发现了下列经验规律：
 
-> 将 xdoj1152\_bad.cpp 编译后，若在 k 个进程中同时运行产生的目标代码，则
-> **每个**进程耗费的用户态 CPU 时间都是单独在一个进程中运行目标代码所耗费
-> 的 k 倍。
+将 xdoj1152\_bad.cpp 编译后，若在 k 个进程中同时运行产生的目标代码，则
+**每个**进程耗费的用户态 CPU 时间都是单独在一个进程中运行目标代码所耗费
+的 k 倍。
 
 这是非常诡异的，而且在实际评测中可能导致相同的提交有时通过，有时（服务器
 重载时）超时！于是[fpcsong](https://github.com/fpcsong)巨巨花了一个通宵进
@@ -57,15 +57,15 @@
 
 * 单次执行
 
-	2,278,365,223 stalled-cycles-frontend:u # 89.23% frontend cycles idle
+    2,278,365,223 stalled-cycles-frontend:u # 89.23% frontend cycles idle
 
 用通俗的话说，就是有大量时钟周期未能进行有用的工作，因为流水线发生了阻塞，
 CPU 只能空转。那么，并行执行的情况如何呢？
 
 * 并行执行
 
-	4,820,092,472 stalled-cycles-frontend:u # 95.46% frontend cycles idle
-	4,824,219,004 stalled-cycles-frontend:u # 95.54% frontend cycles idle
+    4,820,092,472 stalled-cycles-frontend:u # 95.46% frontend cycles idle
+    4,824,219,004 stalled-cycles-frontend:u # 95.54% frontend cycles idle
 
 看上去只提高了几个百分点，并没有什么问题，但是看一下前面的数就傻眼了：空转
 周期数增加了一倍以上！注意这样的空转是 CPU 内部底层数字电路在空转，操作系统
