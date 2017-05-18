@@ -11,6 +11,8 @@ an English translation, be free to submit an issue in the git repo.
 
 ## Entries
 
-[HelloWorld](/HelloWorld)
+20170518 [TODO List](/TODO) \[Top\] \[Updating\]
 
-[Cache Unfriendly Code and Judge Issues](/CacheUnfriendlyCodeAndJudgeIssues)
+20161226 [HelloWorld](/HelloWorld)
+
+20161226 [Cache Unfriendly Code and Judge Issues](/CacheUnfriendlyCodeAndJudgeIssues)
