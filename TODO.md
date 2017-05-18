@@ -6,6 +6,10 @@
 
 \[Waiting\] Sparse representation using curvelet
 
+## Algorithm contests
+
+\[Pending\] 2017 ACM/ICPC Shannxi Invitation
+
 ## GCC
 
 \[Waiting\] PR 62181 (-Wstring-plus-int and -Wstring-plus-char)
@@ -21,4 +25,4 @@ initializer)
 
 ## Other
 
-I need a new Xeon workstation!  Core i3 laptop is too slow.
+I need a new Xeon E3 workstation!  Core i3 laptop is too slow.
