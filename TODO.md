@@ -12,10 +12,14 @@
 
 ## GCC
 
-\[Waiting\] PR 62181 (-Wstring-plus-int and -Wstring-plus-char)
+\[Waiting\] PR c++/62181 (-Wstring-plus-int and -Wstring-plus-char)
 
-\[Waiting\] PR 80863 (Exceptions don't propagate through default member
+\[Waiting\] PR c++/80863 (Exceptions don't propagate through default member
 initializer)
+
+\[Sent\] PR libstdc++/67214 (UB, signed overflow)
+
+\[Sent\] PR libstdc++/67578 (std::random\_device::entropy always return 0)
 
 ## XDOJ
 
