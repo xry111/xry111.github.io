@@ -8,7 +8,7 @@
 
 ## Algorithm contests
 
-\[Pending\] 2017 ACM/ICPC Shannxi Invitation
+\[Done\] ~~2017 ACM/ICPC Shannxi Invitation~~
 
 ## GCC
 
@@ -17,9 +17,9 @@
 \[Waiting\] PR c++/80863 (Exceptions don't propagate through default member
 initializer)
 
-\[Sent\] PR libstdc++/67214 (UB, signed overflow)
+\[Done\] ~~PR libstdc++/67214 (UB, signed overflow)~~
 
-\[Sent\] PR libstdc++/67578 (std::random\_device::entropy always return 0)
+\[Done\] ~~PR libstdc++/67578 (std::random\_device::entropy always return 0)~~
 
 ## XDOJ
 
