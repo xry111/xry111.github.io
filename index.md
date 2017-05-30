@@ -11,7 +11,7 @@ an English translation, be free to submit an issue in the git repo.
 
 ## Entries
 
-20170528 [TODO List](/TODO) \[Top\] \[Updating\]
+20170530 [TODO List](/TODO) \[Top\] \[Updating\]
 
 20161226 [HelloWorld](/HelloWorld)
 
