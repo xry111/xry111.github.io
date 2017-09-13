@@ -1,8 +1,18 @@
 # TODO List
 
-## Compressive sensing
+## Courses
 
-\[Done\] ~~Bachelor thesis~~
+\[WIP 11%\] Reading *The Designing of Control Systems*
+
+\[WIP 5%\] Review probablity and stochastic process
+
+## Structural Chemistry
+
+\[WIP 60%\] Free quantum chemistry calculation platform
+
+\[Waiting\] Learn symmetry in quantum mechanics
+
+## Compressive sensing
 
 \[Waiting\] Sparse representation using curvelet
 
@@ -10,11 +20,13 @@
 
 ## Algorithm contests
 
-\[Done\] ~~2017 ACM/ICPC Shannxi Invitation~~
+\[Waiting\] 2017 ACM/ICPC Shannxi Online
+
+\[Waiting\] 2017 ACM/ICPC Qingdao Online
 
 ## GCC
 
-\[Waiting\] PR c++/81172 (-Warray-bounds for address arithmetics)
+\[Stalled\] PR c++/81172 (-Warray-bounds for address arithmetics)
 
 \[Waiting\] PR c++/80863 (Exceptions don't propagate through default member
 initializer)
@@ -27,6 +39,8 @@ initializer)
 
 \[Waiting\] XDOJhttpd
 
-## Other
+## Computation
+
+Try to build a MPI platform using new Core i5 workstations of SAST.
 
 I need a new Xeon E3 workstation!  Core i3 laptop is too slow.
